@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login JS </title>
+        <link rel = "stylesheet" href = "./Login.css"/>
+    </head>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <!-- Div Responsavel Pelo Logo -->
+                <a href="../Home/Home.html"><h2><span>E</span>duca <span>D</span>evs</h2></a></a>
+                
+            </div>
+
+            <!-- <div class="categoria">
+                <h1>Categoria</h1>
+            </div> -->
+
+            <div class="barra_pesquisa">
+                <!-- Div Responsavel Pelo input-->
+                <img src="../../Assets/lupa.png" alt="lupa">
+                <input type="text" placeholder="pesquisar">
+            </div>
+
+            <div class="auxilio_porcentagem">
+                <!-- Div Responsavel Pelo ajuste da % no css-->
+            </div>
+
+            <div class="tres_icones">
+                <!-- Div Responsavel Pelos 3 icones "favoritos","carrinho","conta"-->
+                <img src="../../Assets/coracao.png" alt="favoritos">
+                <a href="../Carrinho/Carrinho.html"><img src="../../Assets/carrinho.png" alt="carrinho"></a>
+                <a href="../Login/Login.html"><img src="../../Assets/user.png" alt="login"></a>
+                
+            </div>
+        </nav>
+    </header>
+
+    <body>
+
+        <form>
+
+
+            <h3>Login</h3>
+            <input type="text" placeholder ="Login" id = "Login">
+            <input type="password" placeholder = "Senha" id = "Senha">
+            <input type = "submit" onclick = "logar() ;return false">
+        </form>
+
+        <footer id="div-footer">
+            <h3>Aprendizado sem limites, apenas cliques de distância.</h3>
+            <div id="area-lista-footer">
+                <ul>
+                    <li>Termos</li>
+                    <li>Políticas de privacidade</li>
+                    <li>Mapa do site</li>
+                </ul>
+    
+                <ul>
+                    <li>Carreiras</li>
+                    <li>Ajuda e suporte</li>
+                    <li>Investidores</li>
+                </ul>
+    
+                <ul>
+                    <li>Blog</li>
+                    <li>obtenha o aplicativo</li>
+                    <li>Afiliado</li>
+                </ul>
+            </div>
+            <p>2023</p>
+            <div class="logo">
+                <!-- Div Responsavel Pelo Logo -->
+                <a href="./Home.html"></a>
+                <h2><span>E</span>duca <span>D</span>ev</h2></a>
+            </div>
+        </footer>
+
+        <script>
+
+            function logar() {
+
+                var login = document.getElementById('Login').value;
+                var senha = document.getElementById('Senha').value;
+
+                if(login == "admin" && senha == "12345") {
+                    alert('sucesso');
+                    location.href = "../Home/index.html";
+                }else {
+                    alert("Usuario ou senha incorretos");
+                }
+            }
+          
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,283 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Estilização Header */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #1C1D1F;
+}
+
+nav span{
+    color: #75c78c;
+}
+
+
+.logo{
+    width: 15%;
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.categoria{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.barra_pesquisa{
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    border: solid rgba(0, 0, 0, 0.5) 1px;
+}
+
+.barra_pesquisa input{
+    width: 85%;
+    height: 80%;
+    outline: none;   
+    font-size: large;
+}
+
+
+.auxilio_porcentagem{
+    width: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tres_icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tres_icones img{
+    margin: 10px;
+}
+/* Estilização Header */
+
+/* NavBar */
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    color: #8C8C8D;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.nav_bar a{
+    color: #1C1D1F;
+    text-decoration: none;
+}
+
+.nav_bar p:hover{
+    color: #75c78c;
+    transition: 0.2s;
+    transform:scale(1.1);
+}
+/* NavBar */
+
+/* Sobre */
+.container_sobre{
+    width: 100%;
+    height: 500px;
+    background-image: url("../../Assets/sobre.jpg");
+}
+
+.sobre{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
+
+.conteudo_sobre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.conteudo_sobre h1{
+    font-size: xx-large;
+
+}
+.conteudo_sobre p{
+    font-size: large;
+    color: #1c1d1fc1;
+}
+/* Sobre */
+
+
+/* Container dos Cards */
+
+
+.container_cards, #titulo-section{
+    margin-left: 5%;
+}
+
+
+.container_cards {
+    background: red;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.cards{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    margin: 20px;
+    width: 240px;
+    height: 285px;
+    padding: 20px;
+}
+
+.textos {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.textos h2 {
+    font-size: xx-large;
+}
+
+.textos p {
+    font-size: large;
+}
+
+.imagem {
+    width: 100%;
+    height: 50%;
+    background-color: #75c78c;
+    background-color: rgb(71, 67, 67);
+}
+
+#div-1-btns-desc-curso{
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+}
+
+#btn-desc-add-carrinho, #btn-desc-add-favorito{
+    cursor: pointer;
+}
+
+
+#btn-desc-add-carrinho{
+    background-color: #75c78c;
+    width: 75%;
+    color: #ffff;
+    font-weight: bold;
+}
+
+#btn-desc-add-favorito{
+    width: 20%;
+    background-color: transparent;
+    border: solid 1px #1c1d1f29;
+
+}
+
+#btn-desc-add-carrinho, #btn-desc-add-favorito, #btn-desc-comprar{
+    height: 40px;
+}
+
+
+
+/* Footer */
+
+#div-footer{
+    position: static;
+    background-color: #1C1D1F;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+
+}
+
+#div-footer h3{
+font-weight: 100;
+font-size: 20px;
+margin: 10px;
+
+}
+
+#div-footer p{
+    font-weight: 100;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+#area-lista-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 40px;
+    border-top: solid 1px #acacac23;
+}
+
+#area-lista-footer li{
+    list-style-type: none;
+    margin:20px ;
+
+}

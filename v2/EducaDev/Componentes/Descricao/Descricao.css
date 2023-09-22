@@ -1,0 +1,261 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Estilização Header */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+
+nav span{
+    color: #75c78c;
+}
+
+
+.logo{
+    width: 15%;
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.categoria{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.barra_pesquisa{
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    border: solid rgba(0, 0, 0, 0.5) 1px;
+}
+
+.barra_pesquisa input{
+    width: 85%;
+    height: 80%;
+    outline: none;   
+    font-size: large;
+}
+
+
+.auxilio_porcentagem{
+    width: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tres_icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tres_icones img{
+    margin: 10px;
+}
+/* Estilização Header */
+
+
+
+/* Section de apresentação do curso */
+#section-titulo-curso{
+    background-color: #75c78c;
+    height: 300px;
+}
+
+#section-titulo-curso h1{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+
+#teste-area {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: right;
+
+}
+
+#div-1-apresentacao{
+   width: 40%;
+   color: #ffffffab;
+   font-weight: 100
+}
+
+#div-2-apresentacao{
+    padding: 10px;
+    background-color: #ffff;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    float: right;
+    margin-right: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#texto-card-curso-desc{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#valor-curso-desc{
+    margin-top:70px;
+    font-size: 32px;
+    font-weight:700;
+    color: #1c1d1ff0;
+}
+
+#img-card-desc-curso{
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+#container-btns-desc-curso{
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+#container-btns-desc-curso button{
+    cursor: pointer;
+}
+
+#div-1-btns-desc-curso{
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+}
+
+#btn-desc-add-carrinho{
+    width: 75%;
+}
+
+#btn-desc-add-favorito{
+    width: 20%;
+}
+
+#btn-desc-comprar{
+    width: 94%;
+    margin: 10px;
+    color: #ffff;
+    background-color: #1C1D1F
+}
+#btn-desc-add-carrinho, #btn-desc-add-favorito{
+    background-color: transparent;
+    border: solid 1px #1c1d1f29;
+}
+
+
+#btn-desc-add-carrinho, #btn-desc-add-favorito, #btn-desc-comprar{
+    height: 40px;
+}
+/* Section de apresentação do curso */
+
+
+
+#descritivo-curso{
+    margin-left: 15%;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+#div-info{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    color: #1c1d1fd3;
+
+}
+
+/* Section descrição do curso */
+
+
+
+/* Section descrição do curso */
+
+
+
+
+
+
+
+/*Estilzação do Footer*/
+
+#div-footer{
+    position: static;
+    background-color: #1C1D1F;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+
+
+}
+
+#div-footer h3{
+font-weight: 100;
+font-size: 20px;
+margin: 10px;
+
+}
+
+#div-footer p{
+    font-weight: 100;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+
+
+#area-lista-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 40px;
+    border-top: solid 1px #acacac23;
+}
+
+#area-lista-footer li{
+    list-style-type: none;
+    margin:20px ;
+
+}
