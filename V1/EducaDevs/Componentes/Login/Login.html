@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login JS </title>
+        <link rel = "stylesheet" href = "./Login.css"/>
+    </head>
+
+    <body>
+
+        <form>
+
+
+            <h3>Login</h3>
+            <input type="text" placeholder ="Login" id = "Login">
+            <input type="password" placeholder = "Senha" id = "Senha">
+            <input type = "submit" onclick = "logar() ;return false">
+        </form>
+
+        <script>
+
+            function logar() {
+
+                var login = document.getElementById('Login').value;
+                var senha = document.getElementById('Senha').value;
+
+                if(login == "admin" && senha == "12345") {
+                    alert('sucesso');
+                    location.href = "../Home/index.html";
+                }else {
+                    alert("Usuario ou senha incorretos");
+                }
+            }
+          
+        </script>
+
+
+    </body>
+</html>
